@@ -1,3 +1,4 @@
+#!/bin/bash
 #set up brave browser beta channel
 
 sudo apt install apt-transport-https curl
