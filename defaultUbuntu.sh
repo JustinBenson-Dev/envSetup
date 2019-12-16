@@ -18,12 +18,7 @@ sudo apt update -y
 sudo apt install brave-browser-beta -y
 
 #install Visual Studio code
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg -y
-sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/ -y
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo apt-get install apt-transport-https -y
-sudo apt-get update -y
-sudo apt-get install code -y
+sudo snap install --classic code 
 
 #install tools
 sudo apt install curl -y  #install curl
