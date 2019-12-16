@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #install tools
 sudo apt install curl -y  #install curl
 sudo apt install htop -y  #install htop for resource monitoring
