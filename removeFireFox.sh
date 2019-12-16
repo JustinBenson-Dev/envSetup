@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #remove Firefox browser
 sudo apt purge firefox -y
 sudo rm -rf /home/.mozilla .adobe
