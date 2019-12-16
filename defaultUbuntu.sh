@@ -3,9 +3,9 @@
 
 #remove Firefox browser
 sudo apt purge firefox -y
-sudo rmdir -f /home/$USER/.mozilla .adobe
-sudo rmdir -f /etc/firefox
-sudo rmdir -f /usr/lib/firefox firefox-addons
+sudo rm -rf /home/.mozilla .adobe
+sudo rm -rf /etc/firefox
+sudo rm -rf /usr/lib/firefox firefox-addons
 
 #run updates
 sudo apt update && sudo apt upgrade -y
