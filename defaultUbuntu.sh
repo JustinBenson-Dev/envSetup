@@ -65,3 +65,6 @@ sudo apt install nmap -y  #install nmap
 sudo apt install git -y  #install git
 sudo apt install file -y  #install file
 
+#finalize and clean up
+sudo apt upgrade -y
+sudo apt autoremove -y
