@@ -53,7 +53,6 @@ sudo systemctl enable docker
 echo manual | sudo tee /etc/init/docker.override
 sudo chkconfig docker on
 
-
 #install tools
 sudo apt install curl -y  #install curl
 sudo apt install htop -y  #install htop for resource monitoring
@@ -64,6 +63,12 @@ sudo apt install terminator -y  #install terminator
 sudo apt install nmap -y  #install nmap
 sudo apt install git -y  #install git
 sudo apt install file -y  #install file
+
+#install utilities
+#install fl.ux
+sudo add-apt-repository ppa:nathan-renniewaldock/flux -y
+sudo apt-get update
+sudo apt-get install fluxgui -y
 
 #finalize and clean up
 sudo apt upgrade -y
