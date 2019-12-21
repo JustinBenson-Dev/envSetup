@@ -20,6 +20,24 @@ sudo apt install brave-browser-beta -y
 #install Visual Studio code
 sudo snap install --classic code 
 
+#install .NET Core SDK
+wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt-get update
+sudo apt-get install apt-transport-https -y
+sudo apt-get update
+sudo apt-get install dotnet-sdk-3.1 -y
+#install ASP.NET Core runtime
+# sudo apt-get update
+# sudo apt-get install apt-transport-https -y
+# sudo apt-get update
+# sudo apt-get install aspnetcore-runtime-3.1 -y
+#install .NET Core Runtime
+# sudo apt-get update
+# sudo apt-get install apt-transport-https
+# sudo apt-get update
+# sudo apt-get install dotnet-runtime-3.1
+
 #install docker
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
