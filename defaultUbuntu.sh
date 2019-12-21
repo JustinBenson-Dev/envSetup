@@ -1,14 +1,14 @@
  
 #!/bin/bash
 
+#run updates
+sudo apt update && sudo apt upgrade -y
+
 #remove Firefox browser
 sudo apt purge firefox -y
 sudo rm -rf /home/.mozilla .adobe
 sudo rm -rf /etc/firefox
 sudo rm -rf /usr/lib/firefox firefox-addons
-
-#run updates
-sudo apt update && sudo apt upgrade -y
 
 #install brave browser beta channel
 sudo apt install apt-transport-https curl -y
