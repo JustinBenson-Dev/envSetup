@@ -83,7 +83,7 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 #set desktop background
-
+$
 gsettings set org.gnome.desktop.background picture-uri file:///home/$USER/Pictures/WallPapers/images/2017_03_29.jpg
 
 
