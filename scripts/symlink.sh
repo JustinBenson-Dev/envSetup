@@ -30,7 +30,7 @@ function linkDotfile {
 }
 
 linkDotfile .vimrc
-#linkDotfile .tmux.conf
+linkDotfile .tmux.conf
 #linkDotfile .bashrc
 #linkDotfile .bash_profile
 #linkDotfile .gitconfig
