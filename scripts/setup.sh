@@ -9,6 +9,6 @@
 sudo apt update && sudo apt upgrade -y
 
 # See our bash changes
-source ~/.bashrc
+#source ~/.bashrc
 
 # Fun hello
