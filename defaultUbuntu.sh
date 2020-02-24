@@ -53,6 +53,7 @@ sudo systemctl enable docker
 echo manual | sudo tee /etc/init/docker.override
 sudo chkconfig docker on
 
+
 #install tools
 sudo apt install curl -y  #install curl
 sudo apt install htop -y  #install htop for resource monitoring
@@ -69,6 +70,12 @@ sudo apt install file -y  #install file
 sudo add-apt-repository ppa:nathan-renniewaldock/flux -y
 sudo apt-get update
 sudo apt-get install fluxgui -y
+
+#install Bluetooth Manager
+#https://www.maketecheasier.com/setup-bluetooth-in-linux/
+sudo apt-get install bluetooth bluez bluez-tools
+sudo service bluetooth start
+sudo apt-get install blueman
 
 #finalize and clean up
 sudo apt upgrade -y
