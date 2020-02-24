@@ -30,9 +30,9 @@ function linkDotfile {
 }
 
 linkDotfile .vimrc
-linkDotfile .tmux.conf
-linkDotfile .bashrc
-linkDotfile .bash_profile
-linkDotfile .gitconfig
-linkDotfile .gitmessage
-linkDotfile .git-completion.bash
+#linkDotfile .tmux.conf
+#linkDotfile .bashrc
+#linkDotfile .bash_profile
+#linkDotfile .gitconfig
+#linkDotfile .gitmessage
+#linkDotfile .git-completion.bash
