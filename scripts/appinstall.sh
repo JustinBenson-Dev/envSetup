@@ -23,6 +23,7 @@ install nmap
 install openvpn
 install tmux
 install vim
+install terminator
 
 # Fun stuff
 install figlet
