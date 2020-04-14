@@ -3,7 +3,7 @@
 cd programs/
 
 ./docker.sh
-./firefox.sh
+./removeFireFox.sh
 ./python.sh
 ./vsc.sh
 ./vundle.sh
