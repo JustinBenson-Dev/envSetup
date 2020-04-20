@@ -2,7 +2,7 @@
 
 #Uninstall old versions of docker
 echo "#Uninstall old versions of docker"
-sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt remove docker docker-engine docker.io containerd runc
 
 #run Ubuntu updates 
 echo "#run Ubuntu updates"
@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade -y
 
 #1. SET UP THE REPOSITORY 
 echo "#1. SET UP THE REPOSITORY"
-sudo apt-get install -y \
+sudo apt install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -34,6 +34,10 @@ sudo apt update
 #4. Install docker engine
 echo "#4. Install docker engine"
 sudo apt install -y docker-ce docker-ce-cli containerd.io
+
+#clean up
+echo "clean up installation"
+sudo apt autoremove
 
 #5. Use Docker as a non-root user
 echo "#5. Use Docker as a non-root user"
