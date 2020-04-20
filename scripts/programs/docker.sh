@@ -4,18 +4,18 @@
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt purge docker-ce docker-ce-cli containerd.io -y
 
-#run Ubuntu updates 
+#run Ubuntu updates
 sudo apt update && sudo apt upgrade -y
 
-#1. SET UP THE REPOSITORY 
+#1. SET UP THE REPOSITORY
 sudo apt install -y \
     apt-transport-https \
     ca-certificates \
     curl \
     gnupg-agent \
     software-properties-common
-    
-#2. Add Docker’s official GPG key:   
+ 
+#2. Add Docker’s official GPG key:
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 #3. Set up docker stable repo.
@@ -23,7 +23,7 @@ sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
-   
+
 #run updates again
 sudo apt update
 
