@@ -3,6 +3,7 @@
 #Uninstall old versions of docker
 echo "#Uninstall old versions of docker"
 sudo apt remove docker docker-engine docker.io containerd runc
+sudo apt purge docker-ce docker-ce-cli containerd.io -y
 
 #run Ubuntu updates 
 echo "#run Ubuntu updates"
