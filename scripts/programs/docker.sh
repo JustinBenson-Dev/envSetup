@@ -31,7 +31,7 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 
 #clean up
-sudo apt autoremove
+sudo apt autoremove -Y
 
 #5. Use Docker as a non-root user
 sudo usermod -aG docker $USER
