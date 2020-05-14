@@ -14,3 +14,7 @@ cd powertop-2.12
 ./configure
 make
 sudo make install
+
+
+#Source:  https://01.org/powertop/downloads
+#instructions are in the README.md in the download
