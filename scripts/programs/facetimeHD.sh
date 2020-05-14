@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 cd bcwc_pcie/firmware
 
 printf "Compiling firmware\n";
