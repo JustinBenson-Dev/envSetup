@@ -1,5 +1,7 @@
 #!/bin/bash
 
-wget https://download.teamviewer.com/download/version_12x/teamviewer_amd64.deb
+#use the 32/64 multiArchitecture download.  The 64bit doesn't work (unresolveable dependencies).
+wget https://download.teamviewer.com/download/version_12x/teamviewer_i386.deb
 
-sudo apt install ./teamviewer_amd64.deb -y
+#install .deb file using apt
+sudo apt install ./teamviewer_amd64.deb
