@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt install exfat-fuse exfat-utils
+sudo apt install exfat-fuse exfat-utils -y
