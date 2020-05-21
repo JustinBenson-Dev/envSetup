@@ -14,6 +14,7 @@ function install {
 }
 
 # install snaps
+install --classic code 
 install chromium
 install fromscratch
 install hiri
