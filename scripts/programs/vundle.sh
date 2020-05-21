@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# All VictoriaDrake's setup https://github.com/victoriadrake/dotfiles
+
 # Vundle plugin manager
 mkdir -p $HOME/.vim/bundle
 cd $HOME/.vim/bundle
