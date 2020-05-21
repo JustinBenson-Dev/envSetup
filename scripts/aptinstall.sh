@@ -28,6 +28,7 @@ install neofetch
 install nmap
 install terminator
 install tmux
+install tree
 install unzip
 install vim
 install wget
