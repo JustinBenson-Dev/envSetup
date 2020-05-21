@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# All VictoriaDrake's setup https://github.com/victoriadrake/dotfiles
+
 # Visual Studio Code
 # https://code.visualstudio.com/docs/setup/linux
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
