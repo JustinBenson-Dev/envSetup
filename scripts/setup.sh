@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo chmod +x ~/dotfiles -R
+
 ./symlink.sh
 ./aptinstall.sh
 ./snapinstall.sh
