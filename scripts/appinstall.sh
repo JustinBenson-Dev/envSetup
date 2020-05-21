@@ -16,14 +16,14 @@ function install {
 # Basics
 install curl
 install exfat-utils
-install file
 install git
 install htop
 install nmap
-#install openvpn
 install tmux
 install vim
 install terminator
+#install file
+#install openvpn
 
 # Fun stuff
 #install figlet
