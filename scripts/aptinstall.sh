@@ -17,19 +17,20 @@ function install {
 install cheese
 install conky
 install curl
+install dconf-editor
 install exfat-fuse
 install exfat-utils
 install git
 install gnome-boxes
 install gthumb
 install htop
+install neofetch
 install nmap
 install terminator
 install tmux
 install unzip
 install vim
 install wget
-install dconf-editor
 
 #install file
 #install openvpn
