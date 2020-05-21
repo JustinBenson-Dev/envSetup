@@ -1,18 +1,13 @@
 #!/bin/bash
 
-#update Ubuntu and get standard apt repo programs
+./symlink.sh
 ./aptinstall.sh
-
-#get snaps
 ./snapinstall.sh
-
-#Run all programs / install scripts
-#for f in programs/*.sh; do bash "$f" -H; done
 ./programs.sh
 ./desktop.sh
 
-#Get all upgrades
+# Get all upgrades
 sudo apt upgrade -y
 
-#See our bash changes
+# See our bash changes
 source ~/.bashrc
