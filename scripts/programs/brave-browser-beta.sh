@@ -1,8 +1,6 @@
 #!/bin/bash
-#set up brave browser beta channel
 
 echo "Installing Brave Browser"
-
 sudo apt install apt-transport-https curl
 
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
