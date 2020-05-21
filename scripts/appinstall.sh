@@ -20,7 +20,7 @@ install file
 install git
 install htop
 install nmap
-install openvpn
+#install openvpn
 install tmux
 install vim
 install terminator
