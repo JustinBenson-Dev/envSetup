@@ -16,4 +16,4 @@ source ~/.bashrc
 neofetch
 echo "... and we're back!"
 echo "Don't forget post install for:"
-echo "*** dconf-editor, powertop, keybase, and docker (Hello World).***"
+echo "*** dconf-editor, powertop --calibrate, and docker (Hello World).***"
