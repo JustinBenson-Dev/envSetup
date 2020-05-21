@@ -11,3 +11,6 @@ sudo apt upgrade -y
 
 # See our bash changes
 source ~/.bashrc
+
+#Shavasana... final resting pose.
+neofetch
