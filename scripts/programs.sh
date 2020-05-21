@@ -2,9 +2,16 @@
 
 cd programs/
 
-./docker.sh
 ./removeFireFox.sh
-./python.sh
-./vsc.sh
-./vundle.sh
-./sass.sh
+./teamviewer.sh
+./apt-fast.sh
+./brave-browser-beta.sh
+./customdock-gnome.sh
+./exfat.sh
+./powertop.sh
+
+#./docker.sh
+#./python.sh
+#./vsc.sh
+#./vundle.sh
+#./sass.sh
