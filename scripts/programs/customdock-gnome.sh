@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing dconf-editor"
+echo "Installing dconf-editor..."
 sudo apt install dconf-editor -y
 dconf-editor
 
