@@ -15,7 +15,7 @@ function install {
 
 # install snaps
 install chromium
-install docker
+#install docker #try from docker.sh first
 install fromscratch
 install hiri
 install messengerport
