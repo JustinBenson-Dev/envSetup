@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#used to install webcam "FaceTimeHD" drivers on old Macbooks
+echo "Installing facetimeHD..."
+
 sudo apt-get install git curl xz-utils cpio -y
 git clone https://github.com/patjak/facetimehd-firmware.git
 
