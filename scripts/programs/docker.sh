@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Installing docker..."
+
 #Uninstall old versions of docker
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt purge docker-ce docker-ce-cli containerd.io -y
