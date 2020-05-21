@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:bashtop-monitor/bashtop #isntall #bashtop
+echo "Installing Bashtop"
+sudo add-apt-repository ppa:bashtop-monitor/bashtop #install #bashtop
 sudo apt update
 sudo apt install bashtop -y
