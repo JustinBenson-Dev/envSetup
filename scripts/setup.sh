@@ -14,3 +14,4 @@ source ~/.bashrc
 
 #Shavasana... final resting pose.
 neofetch
+echo "... and we're back!"
