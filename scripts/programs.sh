@@ -7,6 +7,7 @@ cd programs/
 ./teamviewer.sh
 ./brave-browser.sh
 ./bashtop.sh
+./docker.sh
 ./powertop.sh
 
 #./python.sh
