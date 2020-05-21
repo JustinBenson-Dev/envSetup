@@ -4,9 +4,8 @@
 ./removeFireFox.sh
 ./teamviewer.sh
 ./brave-browser-beta.sh
-./customdock-gnome.sh
+#./customdock-gnome.sh
 ./exfat.sh
-./powertop.sh
 ./bashtop.sh
 
 #install tools
@@ -17,6 +16,9 @@ sudo apt install wget unzip -y  #install wget unzip
 sudo apt install terminator -y  #install terminator
 sudo apt install nmap -y  #install nmap
 sudo apt install git -y  #install git
+
+#apps
+sudo apt -y install dconf-editor
 
 #install snaps
 sudo snap install docker #install Docker
@@ -32,3 +34,6 @@ sudo apt autoremove
 #set desktop background
 $
 gsettings set org.gnome.desktop.background picture-uri file:///home/$USER/dotfiles/img/dekstop.jpg
+
+#set power settings
+./powertop.sh
