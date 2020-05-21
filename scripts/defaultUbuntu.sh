@@ -1,4 +1,3 @@
- 
 #!/bin/bash
 
 #run updates
@@ -21,12 +20,12 @@ sudo apt install brave-browser-beta -y
 sudo snap install --classic code 
 
 #install .NET Core SDK
-wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-sudo apt-get update
-sudo apt-get install apt-transport-https -y
-sudo apt-get update
-sudo apt-get install dotnet-sdk-3.1 -y
+#wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+#sudo dpkg -i packages-microsoft-prod.deb
+#sudo apt-get update
+#sudo apt-get install apt-transport-https -y
+#sudo apt-get update
+#sudo apt-get install dotnet-sdk-3.1 -y
 #install ASP.NET Core runtime
 # sudo apt-get update
 # sudo apt-get install apt-transport-https -y
@@ -59,24 +58,21 @@ DEFER1
 sudo apt install curl -y  #install curl
 sudo apt install htop -y  #install htop for resource monitoring
 sudo apt install wget unzip -y  #install wget unzip
-sudo apt install openssh-server -y #install openssh  
 sudo apt install tmux -y  #install tmux  
 sudo apt install terminator -y  #install terminator
 sudo apt install nmap -y  #install nmap
 sudo apt install git -y  #install git
-sudo apt install file -y  #install file
 
 #install utilities
-#install fl.ux
-sudo add-apt-repository ppa:nathan-renniewaldock/flux -y
-sudo apt-get update
-sudo apt-get install fluxgui -y
+sudo add-apt-repository ppa:bashtop-monitor/bashtop #isntall #bashtop
+sudo apt update
+sudo apt install bashtop
 
 #install Bluetooth Manager
 #https://www.maketecheasier.com/setup-bluetooth-in-linux/
-sudo apt-get install bluetooth bluez bluez-tools
-sudo service bluetooth start
-sudo apt-get install blueman
+#sudo apt-get install bluetooth bluez bluez-tools
+#sudo service bluetooth start
+#sudo apt-get install blueman
 
 #finalize and clean up
 sudo apt upgrade -y
@@ -84,6 +80,6 @@ sudo apt autoremove -y
 
 #set desktop background
 $
-gsettings set org.gnome.desktop.background picture-uri file:///home/$USER/Pictures/WallPapers/images/2017_03_29.jpg
+gsettings set org.gnome.desktop.background picture-uri file:///home/$USER/dotfiles/img/dekstop.jpg
 
 
