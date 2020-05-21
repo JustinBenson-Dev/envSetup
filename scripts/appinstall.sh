@@ -21,10 +21,10 @@ install htop
 install nmap
 install tmux
 install vim
+install wget
+install unzip
 install terminator
 #install file
 #install openvpn
+#install tools
 
-# Fun stuff
-#install figlet
-#install lolcat
