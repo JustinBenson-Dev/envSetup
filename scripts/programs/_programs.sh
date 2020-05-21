@@ -20,6 +20,7 @@ sudo apt install exfat-fuse exfat-utils -y
 
 #apps
 sudo apt install gnome-boxes -y
+sudo apt install conky -y
 
 #install snaps
 sudo snap install docker #install Docker
