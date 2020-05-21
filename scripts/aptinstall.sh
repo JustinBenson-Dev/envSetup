@@ -14,6 +14,7 @@ function install {
 }
 
 # Basics
+install cheese
 install conky
 install curl
 install exfat-fuse
