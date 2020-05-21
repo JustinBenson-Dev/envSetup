@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Change permissions recursively for symlinks to work
 sudo chmod +x ~/dotfiles -R
 
 ./symlink.sh
