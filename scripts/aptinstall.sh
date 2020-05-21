@@ -14,16 +14,21 @@ function install {
 }
 
 # Basics
+install conky
 install curl
+install exfat-fuse
 install exfat-utils
 install git
+install gnome-boxes
+install gthumb
 install htop
 install nmap
+install terminator
 install tmux
+install unzip
 install vim
 install wget
-install unzip
-install terminator
+
 #install file
 #install openvpn
 #install tools
