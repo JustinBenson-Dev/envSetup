@@ -29,7 +29,7 @@ sudo snap install hiri
 sudo snap install onlyoffice-desktopeditors
 sudo snap install messengerport
 sudo snap install youtube-dl
-sudo snap supertux
+sudo snap install supertux
 sudo snap install zoom-client
 
 
