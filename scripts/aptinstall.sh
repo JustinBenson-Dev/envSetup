@@ -29,6 +29,7 @@ install tmux
 install unzip
 install vim
 install wget
+install dconf-editor
 
 #install file
 #install openvpn
