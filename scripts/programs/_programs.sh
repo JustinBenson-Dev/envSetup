@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo chmod +x ~/dotfiles
 ./apt-fast.sh
 ./removeFireFox.sh
 ./teamviewer.sh
@@ -35,7 +36,7 @@ sudo snap install zoom-client
 
 
 #clean up
-sudo apt-fast upgrade -y
+sudo apt upgrade -y
 sudo apt autoremove
 
 #set desktop background
