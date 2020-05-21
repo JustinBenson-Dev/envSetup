@@ -14,11 +14,11 @@ function install {
 }
 
 # install snaps
-sudo snap install docker
-sudo snap install chromium
-sudo snap install fromscratch
-sudo snap install hiri
-sudo snap install onlyoffice-desktopeditors
-sudo snap install messengerport
-sudo snap install youtube-dl
-sudo snap install zoom-client
+install chromium
+install docker
+install fromscratch
+install hiri
+install messengerport
+install onlyoffice-desktopeditors
+install youtube-dl
+install zoom-client
