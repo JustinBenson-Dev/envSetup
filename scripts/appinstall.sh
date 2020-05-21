@@ -26,5 +26,5 @@ install vim
 install terminator
 
 # Fun stuff
-install figlet
-install lolcat
+#install figlet
+#install lolcat
