@@ -2,16 +2,13 @@
 
 cd programs/
 
+./apt-fast.sh
 ./removeFireFox.sh
 ./teamviewer.sh
-./apt-fast.sh
-./brave-browser-beta.sh
-./customdock-gnome.sh
-./exfat.sh
-./powertop.sh
+./brave-browser.sh
 ./bashtop.sh
+./powertop.sh
 
-#./docker.sh
 #./python.sh
 #./vsc.sh
 #./vundle.sh
