@@ -9,6 +9,7 @@ cd programs/
 ./customdock-gnome.sh
 ./exfat.sh
 ./powertop.sh
+./bashtop.sh
 
 #./docker.sh
 #./python.sh
