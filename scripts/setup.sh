@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Change permissions recursively for symlinks to work
-sudo chmod +x ~/dotfiles -R
+# sudo chmod +x ~/dotfiles -R (doesn't seem to work once you're in the dir.)
 
 ./symlink.sh
 ./aptinstall.sh
