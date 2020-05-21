@@ -15,10 +15,11 @@ function install {
 
 # install snaps
 install chromium
-#install docker #try from docker.sh first
 install fromscratch
 install hiri
 install messengerport
 install onlyoffice-desktopeditors
 install youtube-dl
 install zoom-client
+
+#install docker #try from docker.sh first
