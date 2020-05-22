@@ -9,6 +9,7 @@ cd programs/
 ./brave-browser.sh
 ./bashtop.sh
 ./docker.sh
+./synologyDrive.sh
 ./powertop.sh
 
 #./python.sh
