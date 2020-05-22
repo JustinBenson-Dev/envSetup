@@ -16,6 +16,7 @@ function install {
 # install snaps
 install code --classic 
 install chromium
+install chromium-ffmpeg
 install fromscratch
 install hiri
 install messengerport
