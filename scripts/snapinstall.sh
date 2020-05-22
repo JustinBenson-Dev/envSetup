@@ -18,7 +18,6 @@ install code --classic
 install chromium
 install chromium-ffmpeg
 install fromscratch
-install hiri
 install messengerport
 install onlyoffice-desktopeditors
 install youtube-dl
