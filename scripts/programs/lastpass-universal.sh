@@ -4,7 +4,7 @@
 
 echo "Installing LastPass Universal Linux Installer..."
 
-curl -s https://download.cloud.lastpass.com/linux/lplinux.tar.bz2
+curl --remote-name https://download.cloud.lastpass.com/linux/lplinux.tar.bz2 https://download.cloud.lastpass.com/linux/lplinux.tar.bz2
 
 tar xjvf lplinux.tar.bz2
 
