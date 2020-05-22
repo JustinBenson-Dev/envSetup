@@ -9,6 +9,7 @@ cd programs/
 ./brave-browser.sh
 ./bashtop.sh
 ./docker.sh
+./lastpass-universal.sh
 ./synologyDrive.sh
 ./powertop.sh
 
