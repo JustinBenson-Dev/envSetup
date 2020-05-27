@@ -1,0 +1,59 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+#$Arguments = 'y'
+$apps = @(
+
+'7zip.install'
+'angryip'
+'brave'
+'chrome-remote-desktop-host'
+'chromium'
+'cygwin'
+'dotnetfx'
+'etcher'
+'everything'
+'git.install'
+'google-hangouts-chrome'
+'keybase'
+'kindle'
+'microsoft-edge'
+'microsoft-windows-terminal'
+'mpc-hc'
+'netfx-4.7.1-devpack'
+'notepadplusplus.install'
+'picard'
+'plex'
+'rufus'
+'sendtokindle'
+'slack'
+'sysinternals'
+'treesizefree'
+'unifying'
+'vlc'
+'vscode'
+'wget'
+'windirstat'
+'youtube-dl'
+'zoom'
+
+)
+foreach ($item in $apps)
+{
+choco install $item -y
+}
+
+
+<#
+#powershell 7
+#Invoke-WebRequest -Uri (https://github.com/PowerShell/PowerShell/releases/download/v7.0.1/PowerShell-7.0.1-win-x64.msi)
+#Start-Process msiexec.exe -Wait '/I ./PowerShell-7.0.1-win-x64.msi /quiet'
+
+# crystaldiskmark
+# hdhomerun-view
+# docker-cli
+# docker-desktop
+# caprine
+
+#reference:  https://powershellexplained.com/2016-10-21-powershell-installing-msi-files/?utm_source=blog&utm_medium=blog&utm_content=indexactions
+
+#>
