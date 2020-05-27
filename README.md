@@ -1,5 +1,4 @@
-<h1/>dotfiles</h1>
-Dotfiles and post install set-up scripts for Ubuntu, Windows, and more...
+<h1/>dotfiles</h1> and post install set-up scripts for Ubuntu, Windows, and more...
 
 <p/>branch info</p>
 master:           Ubuntu+Gnome <br>
