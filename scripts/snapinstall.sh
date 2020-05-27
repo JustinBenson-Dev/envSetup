@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt update
+sudo apt-fast update
 
 function install {
   which $1 &> /dev/null
