@@ -32,7 +32,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'vlc'
     'vscode'
     'wget'
-    'windirstat'
+    #'windirstat'
     'youtube-dl'
     'zoom'
      )
