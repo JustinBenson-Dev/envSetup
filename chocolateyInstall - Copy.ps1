@@ -22,11 +22,11 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'netfx-4.7.1-devpack'
     'notepadplusplus'
     'plex'
-    'rsat -params' # '"/AD /GP /RD /FS"'' ##W10 1809+
+    'rsat' # -params '"/AD /GP /RD /FS"'' ##W10 1809+ (flags not working, probably use of '' in foreach loop.)
     'rufus'
     'sendtokindle'
     'slack'
-    'sysinternals'
+    #'sysinternals'
     'treesizefree'
     'unifying'
     'vlc'
