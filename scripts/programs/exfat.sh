@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Installing exfat utils..."
-sudo apt install exfat-fuse exfat-utils -y
+sudo apt-fast install exfat-fuse exfat-utils -y
