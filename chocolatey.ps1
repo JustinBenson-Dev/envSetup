@@ -1,4 +1,6 @@
 # install Chocolatey
+# powershell -executionpolicy bypass -file 
+
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # set variables 
@@ -23,7 +25,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'notepadplusplus'
     'picard'
     'plex'
-    'rsat -params '"/AD /GP /RD /FS"'' #W10 1809+
+    'rsat -params' # '"/AD /GP /RD /FS"'' ##W10 1809+
     'rufus'
     'sendtokindle'
     'slack'
