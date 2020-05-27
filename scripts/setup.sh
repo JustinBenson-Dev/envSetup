@@ -6,6 +6,7 @@
 ./symlink.sh
 ./aptinstall.sh
 ./snapinstall.sh
+./themes.sh
 ./programs.sh
 ./desktop.sh
 
