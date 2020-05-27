@@ -1,5 +1,5 @@
 #!/bin/bash
 
-#install themes
+cd themes/
 
-./themes/ornachelo_icontheme.sh
+./ornachelo_icontheme.sh
