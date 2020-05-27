@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Installing dconf-editor..."
-sudo apt install dconf-editor -y
+sudo apt-fast install dconf-editor -y
 dconf-editor
 
 # go to "org > gnome > shell > extensions > dash-to-dock" 
