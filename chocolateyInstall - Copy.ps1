@@ -15,23 +15,23 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'everything'
     'git'
     'keybase'
-    'kindle'
+    'kindle' #fix pop up/not silent
     'microsoft-edge'
     'microsoft-windows-terminal'
     'mpc-hc'
     'netfx-4.7.1-devpack'
     'notepadplusplus'
-    'plex'
+    'plex' # fix pop up/not silent
     'rsat' # -params '"/AD /GP /RD /FS"'' ##W10 1809+ (flags not working, probably use of '' in foreach loop.)
     'rufus'
-    'sendtokindle'
+    'sendtokindle' #fix pop up/not silent
     'slack'
     #'sysinternals'
     'treesizefree'
     'unifying'
     'vlc'
     'vscode'
-    'wget'
+    #'wget'
     #'windirstat'
     'youtube-dl'
     'zoom'
@@ -44,7 +44,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     }
 
 # install powershell 7 #https://github.com/PowerShell/PowerShell/blob/master/tools/install-powershell.ps1#
-  iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+  iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"  #fix pop up/not silent
 
 # other common things to install 
 
