@@ -1,5 +1,5 @@
-# dotfiles
-Dotfiles and post install set-up scripts for mostly Ubuntu
+<h1/>dotfiles</h1>
+Dotfiles and post install set-up scripts for Ubuntu, Windows, +
 
 <h3/>branch info</h3>
 Main:             Ubuntu+Gnome <br>
