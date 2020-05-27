@@ -18,7 +18,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'kindle' #fix pop up/not silent
     'microsoft-edge'
     'microsoft-windows-terminal'
-    'mpc-hc'
+    #'mpc-hc'
+    'mpc-hc-clsid2' # forked version of MPC-HC
     'netfx-4.7.1-devpack'
     'notepadplusplus'
     'plex' # fix pop up/not silent
