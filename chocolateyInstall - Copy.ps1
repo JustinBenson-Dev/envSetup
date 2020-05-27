@@ -6,16 +6,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # set variables 
   $apps = @(
     '7zip'
-    'angryip'
     'brave'
     'chromium'
     'chrome-remote-desktop-host'
-    'cygwin'
+    #'cygwin'
     'dotnetfx'
     'etcher'
     'everything'
     'git'
-    'google-hangouts-chrome'
     'keybase'
     'kindle'
     'microsoft-edge'
