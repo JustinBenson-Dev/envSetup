@@ -3,3 +3,5 @@
 cd themes/
 
 ./ornachelo_icontheme.sh
+
+cd ..
