@@ -47,13 +47,11 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
   iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"  #fix pop up/not silent
 
 # other common things to install 
-
   # 'crystaldiskmark'
   # 'hdhomerun-view'
   # 'docker-cli'
   # 'docker-desktop'
   # 'caprine'
   # 'picard'
-
   
   # reference: #https://github.com/PowerShell/PowerShell/blob/master/tools/install-powershell.ps1#
