@@ -14,6 +14,8 @@ cd programs/
 ./synologyDrive.sh
 ./powertop.sh
 
+cd ..
+
 #./python.sh
 #./vsc.sh
 #./vundle.sh
