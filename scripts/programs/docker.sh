@@ -6,8 +6,8 @@ echo "Installing docker..."
 sudo apt remove docker docker-engine docker.io containerd runc
 sudo apt purge docker-ce docker-ce-cli containerd.io -y
 
-sudo apt update
-sudo apt-get install -y \
+sudo apt-fast update
+sudo apt-fast install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -18,6 +18,6 @@ sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io
+sudo apt-fast update
+sudo apt-fast install -y docker-ce docker-ce-cli containerd.io
 #sudo docker run hello-world
