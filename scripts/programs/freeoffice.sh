@@ -8,4 +8,4 @@ sudo apt install -y ./softmaker-freeoffice-2018_976-01_amd64.deb
 
 rm -rf softmaker-freeoffice-2018_976-01_amd64.deb
 
-sudo /usr/share/freeoffice2018/add_apt_repo.sh
+sudo bash /usr/share/freeoffice2018/add_apt_repo.sh
