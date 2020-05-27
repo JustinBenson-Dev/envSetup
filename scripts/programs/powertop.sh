@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-sudo apt install powertop tlp -y
+sudo apt-fast install powertop tlp -y
 sudo tpl start
 #sudo powertop --calibrate
 
