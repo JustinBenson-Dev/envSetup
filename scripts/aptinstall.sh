@@ -22,6 +22,7 @@ install exfat-fuse
 install exfat-utils
 install git
 install gnome-boxes
+install gnome-tweak-tool
 install gthumb
 install htop
 install neofetch
