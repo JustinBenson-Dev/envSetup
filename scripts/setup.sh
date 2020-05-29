@@ -11,7 +11,7 @@
 ./desktop.sh
 
 # Get all upgrades
-sudo dnf update -y
+sudo dnf upgrade -y
 
 # See our bash changes
 source ~/.bashrc
