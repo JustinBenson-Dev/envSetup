@@ -16,9 +16,7 @@ function install {
 # Basics
 install bashtop
 install chromium
-install chromium-ffmpeg
 install conky
-install curl
 install dconf-editor
 install exfat-fuse
 install exfat-utils
@@ -29,4 +27,3 @@ install neofetch
 install nmap
 install terminator
 install vim
-
