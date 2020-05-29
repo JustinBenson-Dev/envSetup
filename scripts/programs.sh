@@ -2,7 +2,7 @@
 
 cd programs/
 
-./removeFireFox.sh
+./removeFireFox-dnf.sh
 ./teamviewer-dnf.sh
 ./keybase-dnf.sh
 ./brave-browser-dnf.sh
