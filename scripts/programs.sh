@@ -7,7 +7,7 @@ cd programs/
 ./teamviewer-dnf.sh
 ./keybase-dnf.sh
 ./brave-browser-dnf.sh
-./docker-dnf.sh
+./docker-fedora-dnf.sh
 ./freeoffice-dnf.sh
 ./lastpass-universal.sh
 ./synologyDrive-dnf.sh
