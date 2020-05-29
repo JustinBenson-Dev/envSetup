@@ -21,3 +21,11 @@ neofetch
 echo "... and we're back!"
 echo "*** Don't forget post install for: ***"
 echo "*** dconf-editor, powertop --calibrate, and docker (Hello World).***"
+
+#prompt to logout
+read -p "***Ready to logout (beacuse of Docker)?***" -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    logout
+fi
