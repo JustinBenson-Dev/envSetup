@@ -29,3 +29,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
     logout
 fi
+
+# syntax for Y/n https://www.shellhacks.com/yes-no-bash-script-prompt-confirmation/
