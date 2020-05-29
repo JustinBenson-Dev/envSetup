@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Installing exfat utils..."
-sudo dnf install exfat-fuse exfat-utils -y
+sudo dnf install -y exfat exfat-fuse
