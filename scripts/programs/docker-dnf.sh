@@ -16,9 +16,7 @@ sudo dnf remove -y docker \
 
 #set up local Docker repo
 sudo dnf install -y dnf-plugins-core
-sudo dnf config-manager \
-    --add-repo \
-    https://download.docker.com/linux/fedora/docker-ce.repo
+sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 
 #install Docker engine
 sudo dnf install -y docker-ce docker-ce-cli containerd.io
