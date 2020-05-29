@@ -7,7 +7,7 @@ function install {
 
   if [ $? -ne 0 ]; then
     echo "Installing: ${1}..."
-    sudo dnf -y $1
+    sudo dnf install -y $1
   else
     echo "Already installed: ${1}"
   fi
