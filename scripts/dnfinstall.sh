@@ -14,27 +14,17 @@ function install {
 }
 
 # Basics
-install cheese
+install bashtop
 install conky
 install curl
 install dconf-editor
 install exfat-fuse
 install exfat-utils
-install git
-install gnome-boxes
 install gnome-tweak-tool
 install gthumb
 install htop
 install neofetch
 install nmap
 install terminator
-install tmux
-install tree
-install unzip
 install vim
-install wget
-
-#install file
-#install openvpn
-#install tools
 
