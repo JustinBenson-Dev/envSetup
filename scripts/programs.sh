@@ -2,17 +2,16 @@
 
 cd programs/
 
-./apt-fast.sh
 ./removeFireFox.sh
-./teamviewer.sh
-./keybase.sh
-./brave-browser.sh
-./bashtop.sh
-./docker.sh
-./freeoffice.sh
-./lastpass-universal.sh
-./synologyDrive.sh
-./powertop.sh
+./teamviewer-dnf.sh
+./keybase-dnf.sh
+./brave-browser-dnf.sh
+./docker-dnf.sh
+./freeoffice-dnf.sh
+./lastpass-universal-dnf.sh
+./synologyDrive-dnf.sh
+./powertop-dnf.sh
+./zoom-client-dnf.sh
 
 cd ..
 
