@@ -8,7 +8,7 @@ cd programs/
 ./brave-browser-dnf.sh
 ./docker-dnf.sh
 ./freeoffice-dnf.sh
-./lastpass-universal-dnf.sh
+./lastpass-universal.sh
 ./synologyDrive-dnf.sh
 ./powertop-dnf.sh
 ./zoom-client-dnf.sh
