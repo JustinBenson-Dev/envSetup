@@ -15,6 +15,8 @@ function install {
 
 # Basics
 install bashtop
+install chromium
+install chromium-ffmpeg
 install conky
 install curl
 install dconf-editor
