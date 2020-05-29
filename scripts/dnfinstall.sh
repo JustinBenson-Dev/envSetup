@@ -18,8 +18,6 @@ install bashtop
 install chromium
 install conky
 install dconf-editor
-install exfat-fuse
-install exfat-utils
 install gnome-tweak-tool
 install gthumb
 install htop
