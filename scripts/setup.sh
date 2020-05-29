@@ -4,8 +4,8 @@
 # sudo chmod +x ~/dotfiles -R (doesn't seem to work once you're in the dir.)
 
 ./symlink.sh
-./aptinstall.sh
-./snapinstall.sh
+./dnfinstall.sh
+#./snapinstall.sh
 ./themes.sh
 ./programs.sh
 ./desktop.sh
