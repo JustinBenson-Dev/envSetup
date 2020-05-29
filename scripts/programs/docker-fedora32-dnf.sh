@@ -16,4 +16,15 @@ EOF
 sudo dnf makecache
 sudo dnf -y install docker-ce docker-ce-cli containerd.io
 
-sudo systemctl enable --now docker
+#post install to add to Docker group
+sudo groupadd docker
+sudo usermod -aG docker $USER
+#it's best to log out here, but you can run this too:
+newgrp docker 
+#test running Docker
+docker run hello-world
+
+#enable Docker start at boot
+sudo systemctl enable Docker
+#disable start at boot
+#sudo systemctl disable Docker
