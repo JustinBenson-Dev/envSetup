@@ -15,7 +15,8 @@ sudo dnf remove -y docker \
                   docker-engine
 
 #set up local Docker repo
-sudo dnf install -y dnf-plugins-core
+sudo dnf -y install dnf-plugins-core
+sudo dnf update -y
 sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 
 #install Docker engine
