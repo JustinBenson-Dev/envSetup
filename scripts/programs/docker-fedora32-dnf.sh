@@ -25,6 +25,6 @@ newgrp docker
 docker run hello-world
 
 #enable Docker start at boot
-sudo systemctl enable Docker
+sudo systemctl enable --now docker
 #disable start at boot
 #sudo systemctl disable Docker
