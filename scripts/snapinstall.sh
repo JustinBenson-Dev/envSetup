@@ -15,12 +15,6 @@ function install {
 
 # install snaps
 install code --classic 
-install chromium
-install chromium-ffmpeg
 install fromscratch
-install messengerport
-install onlyoffice-desktopeditors
-install youtube-dl
-install zoom-client
 
 #install docker #try from docker.sh first
