@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Installing docker..."
+echo "Installing Docker CE..."
 
-#Uninstall old versions of docker
+#Uninstall old versions of Docker
 sudo dnf remove docker \
                   docker-client \
                   docker-client-latest \
@@ -27,12 +27,12 @@ sudo dnf install -y docker-ce docker-ce-cli containerd.io
 sudo grubby --update-kernel=ALL --args="systemd.unified_cgroup_hierarchy=0"
 
 #reboot then start Docker with systemctl
-sudo systemctl start docker
+sudo systemctl start Docker
 
 #optional test install if you don't care about sudo use
 #sudo docker run hello-world
 
-#post install to add to docker group
+#post install to add to Docker group
 sudo groupadd docker
 sudo usermod -aG docker $USER
 #it's best to log out here, but you can run this too:
@@ -41,6 +41,6 @@ newgrp docker
 docker run hello-world
 
 #enable Docker start at boot
-sudo systemctl enable docker
+sudo systemctl enable Docker
 #disable start at boot
-#sudo systemctl disable docker
+#sudo systemctl disable Docker
