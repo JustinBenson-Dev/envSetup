@@ -3,7 +3,7 @@
 echo "Installing Docker CE..."
 
 #Uninstall old versions of Docker
-sudo dnf remove docker \
+sudo dnf remove -y docker \
                   docker-client \
                   docker-client-latest \
                   docker-common \
