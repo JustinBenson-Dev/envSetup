@@ -24,6 +24,8 @@ newgrp docker
 
 #enable Docker start at boot
 sudo systemctl enable docker
+
+exit
 #disable start at boot
 #sudo systemctl disable Docker
 
