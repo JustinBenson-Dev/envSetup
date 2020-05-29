@@ -21,10 +21,11 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 #it's best to log out here, but you can run this too:
 newgrp docker 
-#test running Docker
-docker run hello-world
 
 #enable Docker start at boot
-sudo systemctl enable --now docker
+sudo systemctl enable docker
 #disable start at boot
 #sudo systemctl disable Docker
+
+#test running Docker
+#docker run hello-world
