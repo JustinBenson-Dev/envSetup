@@ -6,4 +6,5 @@
 <h3>branch</h3>
 master:           Ubuntu+Gnome <br>
 windows:          Windows 10 1809+ <br>
+fedora:           Fedora 32<br>
 ubuntu-apt-fast:  Ubuntu (all flavors) <br>
