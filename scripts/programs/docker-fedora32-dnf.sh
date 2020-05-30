@@ -20,12 +20,11 @@ sudo dnf -y install docker-ce docker-ce-cli containerd.io
 sudo groupadd docker
 sudo usermod -aG docker $USER
 #it's best to log out here, but you can run this too:
-newgrp docker 
+#newgrp docker 
 
 #enable Docker start at boot
 sudo systemctl enable docker
 
-exit
 #disable start at boot
 #sudo systemctl disable Docker
 
