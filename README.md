@@ -1,5 +1,5 @@
 <h1/>dotfiles...</h1> 
-...and post install set-up scripts for Ubuntu, Windows, and more...
+...and post install set-up scripts for Ubuntu 20LTS, Fedora 32, Windows 10, and more...
 
 <h2>Legend:</h2>
 
