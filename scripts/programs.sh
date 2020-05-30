@@ -7,12 +7,12 @@ cd programs/
 ./teamviewer-dnf.sh
 ./keybase-dnf.sh
 ./brave-browser-dnf.sh
-./docker-fedora32-dnf.sh
 ./freeoffice-dnf.sh
 ./lastpass-universal.sh
 ./synologyDrive-dnf.sh
 ./powertop-dnf.sh
 ./zoom-client-dnf.sh
+./docker-fedora32-dnf.sh
 
 cd ..
 
