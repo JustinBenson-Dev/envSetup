@@ -12,7 +12,7 @@ cd programs/
 ./synologyDrive-dnf.sh
 ./powertop-dnf.sh
 ./zoom-client-dnf.sh
-./docker-fedora32-dnf.sh
+#./docker-fedora32-dnf.sh
 
 cd ..
 
