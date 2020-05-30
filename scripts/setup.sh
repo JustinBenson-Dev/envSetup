@@ -27,7 +27,7 @@ read -p "***Ready to logout (beacuse of Docker)?***" -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    logout
+    gnome-session-exit
 fi
 
 # syntax for Y/n https://www.shellhacks.com/yes-no-bash-script-prompt-confirmation/
