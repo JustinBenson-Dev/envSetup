@@ -4,6 +4,7 @@ cd programs/
 
 ./removeFireFox-dnf.sh
 ./removeLibreOffice-dnf.sh
+./removeRhythmbox-dnf.sh
 ./teamviewer-dnf.sh
 ./keybase-dnf.sh
 ./brave-browser-dnf.sh
