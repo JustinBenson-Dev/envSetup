@@ -20,7 +20,6 @@ install chromium-ffmpeg
 install fromscratch
 install libreoffice
 install messengerport
-install onlyoffice-desktopeditors
 install youtube-dl
 install zoom-client
 
