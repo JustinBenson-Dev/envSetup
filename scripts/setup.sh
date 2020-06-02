@@ -3,7 +3,7 @@
 #Change permissions recursively for symlinks to work
 # sudo chmod +x ~/dotfiles -R (doesn't seem to work once you're in the dir.)
 
-./symlink.sh
+#./symlink.sh
 ./aptinstall.sh
 ./snapinstall.sh
 ./themes.sh
