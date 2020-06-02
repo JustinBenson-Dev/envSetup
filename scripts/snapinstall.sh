@@ -14,11 +14,11 @@ function install {
 }
 
 # install snaps
+install caprine
 install code --classic 
 install chromium
 install chromium-ffmpeg
 install fromscratch
-install messengerport
 install onlyoffice-desktopeditors
 install youtube-dl
 install zoom-client
