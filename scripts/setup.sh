@@ -13,9 +13,6 @@
 # Get all upgrades
 sudo apt-fast upgrade -y
 
-# See our bash changes
-source ~/.bashrc
-
 #Shavasana... final resting pose.
 neofetch
 echo "... and we're back!"
