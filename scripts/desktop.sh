@@ -1,4 +1,4 @@
 #!/bin/bash
 
 #load dconf settings as user "jabs" 
-dconf load /org/gnome/ < ./dconf.settings
+dconf load /org/gnome/ < dconf.settings
