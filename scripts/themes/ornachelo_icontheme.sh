@@ -5,7 +5,7 @@
 echo "Installing oranchelo icon theme set..."
 
 git clone https://github.com/OrancheloTeam/oranchelo-icon-theme.git
-sudo chmod +x ./oranchelo-icon-theme
+sudo chmod +x ./oranchelo-icon-theme -R
 cd ./oranchelo-icon-theme
 sudo make install
 cd ..
