@@ -17,4 +17,4 @@ sudo apt-fast upgrade -y
 neofetch
 echo "... and we're back!"
 echo "*** Don't forget post install for: ***"
-echo "*** dconf-editor, powertop --calibrate, and docker (Hello World).***"
+echo "*** run the dconf-load.sh script, (on battery) sudo systemctl enable tlp, sudo powertop --calibrate, and docker (Hello World).***"
