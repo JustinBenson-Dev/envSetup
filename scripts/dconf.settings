@@ -1,0 +1,97 @@
+[control-center]
+last-panel='keyboard'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[desktop/interface]
+gtk-im-module='ibus'
+gtk-theme='Yaru-dark'
+
+[desktop/notifications]
+application-children=['gnome-printers-panel', 'snap-store-ubuntu-software']
+show-banners=true
+
+[desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[desktop/notifications/application/snap-store-ubuntu-software]
+application-id='snap-store_ubuntu-software.desktop'
+
+[desktop/privacy]
+disable-microphone=false
+report-technical-problems=true
+
+[desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 0
+
+[desktop/sound]
+allow-volume-above-100-percent=false
+
+[desktop/wm/keybindings]
+activate-window-menu=@as []
+panel-run-dialog=['<Super>r']
+
+[evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[mutter]
+experimental-features=@as []
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+
+[settings-daemon/plugins/media-keys]
+area-screenshot-clip=['<Shift><Super>s']
+home=['<Super>e']
+search=@as []
+
+[settings-daemon/plugins/power]
+power-button-action='suspend'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=3600
+
+[shell]
+app-picker-view=uint32 1
+favorite-apps=['org.gnome.Nautilus.desktop', 'snap-store_ubuntu-software.desktop', 'chromium_chromium.desktop', 'brave-browser.desktop', 'org.gnome.Boxes.desktop', 'fromscratch_fromscratch.desktop', 'keybase.desktop', 'synology-drive.desktop', 'zoom-client_zoom-client.desktop', 'vim.desktop', 'org.gnome.gedit.desktop', 'terminator.desktop', 'messengerport_messengerport.desktop', 'libreoffice_calc.desktop', 'libreoffice_writer.desktop']
+had-bluetooth-devices-setup=true
+
+[shell/extensions/dash-to-dock]
+dash-max-icon-size=22
+dock-position='BOTTOM'
+multi-monitor=false
+show-apps-at-top=true
+
+[shell/keybindings]
+toggle-application-view=['<Alt>a']
+
+[software]
+check-timestamp=int64 1591116824
+
+[system/location]
+enabled=false
