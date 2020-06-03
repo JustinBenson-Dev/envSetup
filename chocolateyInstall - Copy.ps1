@@ -1,4 +1,4 @@
-﻿# install Chocolatey
+# install Chocolatey
 # powershell -executionpolicy bypass -file 
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -7,16 +7,16 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
   $apps = @(
     '7zip'
     'brave'
-    'chromium'
-    'chrome-remote-desktop-host'
+    #'chromium'
+    #'chrome-remote-desktop-host'
     #'cygwin'
     'dotnetfx'
     'etcher'
     'everything'
     'git'
-    'keybase'
+    #'keybase'
     'kindle' #fix pop up/not silent
-    'microsoft-edge'
+    #'microsoft-edge'
     'microsoft-windows-terminal'
     #'mpc-hc'
     'mpc-hc-clsid2' # forked version of MPC-HC
@@ -34,6 +34,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'vscode'
     #'wget'
     #'windirstat'
+    #'visualstudio2019community'
     'youtube-dl'
     'zoom'
      )
