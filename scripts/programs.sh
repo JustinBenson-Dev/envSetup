@@ -8,6 +8,7 @@ cd programs/
 ./keybase.sh
 ./brave-browser.sh
 ./bashtop.sh
+./remmina.sh
 ./docker.sh
 ./lastpass-universal.sh
 ./synologyDrive.sh
