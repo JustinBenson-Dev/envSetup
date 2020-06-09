@@ -3,7 +3,7 @@
 cd programs/
 
 #./apt-fast.sh
-./removeFireFox.sh
+./removeFireFox-esr.sh
 ./teamviewer12.sh
 ./keybase.sh
 ./brave-browser.sh
