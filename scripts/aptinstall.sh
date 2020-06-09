@@ -17,7 +17,6 @@ function install {
 install cheese
 install chromium
 install conky
-install curl
 install epiphany-browser
 install exfat-fuse
 install exfat-utils
@@ -34,5 +33,5 @@ install tree
 install unzip
 install vim
 install youtube-dl
-install wget
+
 
