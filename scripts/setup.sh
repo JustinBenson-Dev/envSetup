@@ -5,7 +5,7 @@
 
 #./symlink.sh
 ./aptinstall.sh
-./snapinstall.sh
+./flatpakinstall.sh
 ./themes.sh
 ./programs.sh
 #./desktop.sh
