@@ -18,6 +18,7 @@ install cheese
 install chromium
 install conky
 install curl
+install epiphany-browser
 install exfat-fuse
 install exfat-utils
 install git
