@@ -9,7 +9,7 @@ cd programs/
 ./brave-browser.sh
 ./bashtop.sh
 ./remmina.sh
-./docker.sh
+./podman.sh
 ./lastpass-universal.sh
 ./synologyDrive.sh
 ./vscode.sh
