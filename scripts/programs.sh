@@ -12,11 +12,7 @@ cd programs/
 ./docker.sh
 ./lastpass-universal.sh
 ./synologyDrive.sh
+./vscode.sh
 ./powertop.sh
 
 cd ..
-
-#./python.sh
-#./vsc.sh
-#./vundle.sh
-#./sass.sh
