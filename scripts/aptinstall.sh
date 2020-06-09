@@ -15,14 +15,13 @@ function install {
 
 # Basics
 install cheese
+install chromium
 install conky
 install curl
-install dconf-editor
 install exfat-fuse
 install exfat-utils
 install git
 install gnome-boxes
-install gnome-tweak-tool
 install gthumb
 install htop
 install neofetch
@@ -32,9 +31,6 @@ install tmux
 install tree
 install unzip
 install vim
+install youtube-dl
 install wget
-
-#install file
-#install openvpn
-#install tools
 
