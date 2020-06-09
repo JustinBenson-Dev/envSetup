@@ -8,7 +8,7 @@
 ./snapinstall.sh
 ./themes.sh
 ./programs.sh
-./desktop.sh
+#./desktop.sh
 
 # Get all upgrades
 sudo apt upgrade -y
