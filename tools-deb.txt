@@ -3,3 +3,8 @@ grep " install " /var/log/dpkg.log
 
 #check the hard drive serial number using lshw.
 sudo lshw -class disk
+
+#flatpak syntax
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+ex: sudo flatpak install flatpak1 flatpak2 flatpak3 -y
+ex: sudo flatpak install org.gabmus.hydrapaper us.zoom.Zoom -y
