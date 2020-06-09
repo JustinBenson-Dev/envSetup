@@ -8,3 +8,6 @@ sudo lshw -class disk
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ex: sudo flatpak install flatpak1 flatpak2 flatpak3 -y
 ex: sudo flatpak install org.gabmus.hydrapaper us.zoom.Zoom -y
+
+#echo command to add text to file
+ex: echo "add this info to" >> someFile.txt
