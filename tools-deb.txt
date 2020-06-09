@@ -1,3 +1,5 @@
 #list the installed packages sorted by install date/time 
 grep " install " /var/log/dpkg.log
 
+#check the hard drive serial number using lshw.
+sudo lshw -class disk
