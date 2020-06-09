@@ -15,6 +15,6 @@ function install {
 
 #install flatpaks
 install us.zoom.Zoom
-install flathub org.gabmus.hydrapaper
+install org.gabmus.hydrapaper
 
 #https://www.addictivetips.com/ubuntu-linux-tips/make-ubuntu-post-installation-script/
