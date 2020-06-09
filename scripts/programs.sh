@@ -2,7 +2,7 @@
 
 cd programs/
 
-./apt-fast.sh
+#./apt-fast.sh
 ./removeFireFox.sh
 ./teamviewer12.sh
 ./keybase.sh
