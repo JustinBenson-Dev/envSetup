@@ -14,6 +14,5 @@ function install {
 }
 
 #install flatpaks
-install flathub 
 install us.zoom.Zoom
-install org.gabmus.hydrapaper
+install flathub org.gabmus.hydrapaper
