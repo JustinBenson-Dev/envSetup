@@ -14,13 +14,7 @@ function install {
 }
 
 # install snaps
-install caprine
-install code --classic 
-install chromium
-install chromium-ffmpeg
-install fromscratch
-install libreoffice
-install youtube-dl
-install zoom-client
+ 
+
 
 #install docker #try from docker.sh first
