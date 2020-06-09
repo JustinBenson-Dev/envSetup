@@ -27,6 +27,7 @@ install gthumb
 install htop
 install neofetch
 install nmap
+install remmina
 install terminator
 install tmux
 install tree
