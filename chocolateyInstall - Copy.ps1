@@ -5,7 +5,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 # set variables 
   $apps = @(
-    '7zip'
+    #'7zip'
     'brave'
     #'chromium'
     #'chrome-remote-desktop-host'
@@ -23,7 +23,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'netfx-4.7.1-devpack'
     'notepadplusplus'
     'plex' # fix pop up/not silent
-    'rsat' # -params '"/AD /GP /RD /FS"'' ##W10 1809+ (flags not working, probably use of '' in foreach loop.)
+    #'rsat' # -params '"/AD /GP /RD /FS"'' ##W10 1809+ (flags not working, probably use of '' in foreach loop.)
     'rufus'
     'sendtokindle' #fix pop up/not silent
     'slack'
