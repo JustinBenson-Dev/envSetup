@@ -29,6 +29,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'rufus'
     'sendtokindle' #fix pop up/not silent
     'slack'
+    'synologydrive'
     #'sysinternals'
     'treesizefree'
     'unifying'
