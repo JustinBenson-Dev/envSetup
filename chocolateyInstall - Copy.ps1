@@ -13,7 +13,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'dotnetfx'
     'etcher'
     'everything'
-    'git'
+    #'git'
+    'github-desktop'
     #'keybase'
     'kindle' #fix pop up/not silent
     #'microsoft-edge'
