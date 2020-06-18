@@ -6,5 +6,5 @@ master:           Ubuntu+Gnome <br>
 windows:          Windows 10 1809+ <br>
 fedora:           Fedora 32<br>
 ubuntu-apt-fast:  Ubuntu (all flavors) <br>
-mint20:           Linux Mint 20 (no snaps installed)
-centos8:          Centos 8 no GUI
+mint20:           Linux Mint 20 (no snaps installed) <br>
+centos8:          Centos 8 no GUI <br>
