@@ -18,6 +18,6 @@ sudo systemctl status NetworkManager.service
 
 #check wifi device list
 sudo nmcli dev
-sudo nmcli r wifi
+sudo nmcli r wifi on
 
 # wifisupplicant
