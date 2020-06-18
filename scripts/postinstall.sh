@@ -33,6 +33,3 @@ read -s -p "Enter password: " pswd
 
 #Connect to WiFi Hotspot
 sudo nmcli dev wifi connect "$ssid" password "$pswd"
-
-
-# wifisupplicant
