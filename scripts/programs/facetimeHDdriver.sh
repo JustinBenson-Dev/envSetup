@@ -4,10 +4,11 @@
 echo "Installing facetimeHD..."
 
 sudo apt-get install git curl xz-utils cpio -y
-git clone https://github.com/patjak/facetimehd-firmware.git
 
-cd bcwc_pcie/firmware
+git clone https://github.com/patjak/facetimehd-firmware
+git clone https://github.com/patjak/bcwc_pcie
 
+cd ./facetimehd-firmware
 printf "Compiling firmware\n";
 make
 printf "done\n\n";
@@ -16,7 +17,7 @@ printf "Installing firmware\n";
 sudo make install
 printf "done\n\n";
 
-cd ..
+cd ../bcwc_pcie
 
 printf "Compiling driver\n";
 make
