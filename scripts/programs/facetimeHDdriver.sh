@@ -39,4 +39,3 @@ printf "Loading driver\n";
 sudo modprobe facetimehd
 printf "done\n\n";
 
-echo facetimehd >> /etc/modules
