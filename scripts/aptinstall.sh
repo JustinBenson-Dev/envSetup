@@ -15,7 +15,7 @@ function install {
 
 # Basics
 install cheese
-install chromium
+#install chromium
 install conky
 install epiphany-browser
 install exfat-fuse
