@@ -3,7 +3,7 @@
 cd programs/
 
 #./apt-fast.sh
-./removeFireFox-esr.sh
+./removeFirefox.sh
 ./teamviewer12.sh
 ./chromium-nonsnap.sh
 ./keybase.sh
