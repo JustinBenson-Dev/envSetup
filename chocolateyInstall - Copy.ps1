@@ -5,7 +5,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 # set variables 
   $apps = @(
-    #'7zip'
+    '7zip'
+    'autoruns'
     'brave'
     #'chromium'
     #'chrome-remote-desktop-host'
@@ -13,7 +14,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'dotnetfx'
     'etcher'
     'everything'
-    #'git'
+    'git.install'
     'github-desktop'
     #'keybase'
     'kindle' #fix pop up/not silent
@@ -25,7 +26,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'notepadplusplus'
     'plex' # fix pop up/not silent
     #'rsat' # -params '"/AD /GP /RD /FS"'' ##W10 1809+ (flags not working, probably use of '' in foreach loop.)
-    'choco install revo-uninstaller'
+    'revo-uninstaller'
     'rufus'
     'sendtokindle' #fix pop up/not silent
     'slack'
