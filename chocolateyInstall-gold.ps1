@@ -52,6 +52,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # install powershell 7 #https://github.com/PowerShell/PowerShell/blob/master/tools/install-powershell.ps1#
   iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"  #fix pop up/not silent
 
+# update Powershell Help
+Update-Help
+
 # other common things to install 
   # 'crystaldiskmark'
   # 'hdhomerun-view'
