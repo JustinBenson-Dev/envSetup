@@ -25,10 +25,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     'netfx-4.7.1-devpack'
     'notepadplusplus'
     'plex' # fix pop up/not silent
-    #'rsat' # -params '"/AD /GP /RD /FS"'' ##W10 1809+ (flags not working, probably use of '' in foreach loop.)
     'revo-uninstaller'
     'rufus'
-    'rsat'
     'sendtokindle' #fix pop up/not silent
     'slack'
     'synologydrive'
@@ -49,6 +47,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     {
       choco install $item -y
     }
+# install RSAT Tools WIndows 10
+  choco install rsat -params '"/AD /GP /FS"' -y
 
 # install powershell 7 #https://github.com/PowerShell/PowerShell/blob/master/tools/install-powershell.ps1#
   iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"  #fix pop up/not silent
