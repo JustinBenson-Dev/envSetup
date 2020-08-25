@@ -28,6 +28,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     #'rsat' # -params '"/AD /GP /RD /FS"'' ##W10 1809+ (flags not working, probably use of '' in foreach loop.)
     'revo-uninstaller'
     'rufus'
+    'rsat'
     'sendtokindle' #fix pop up/not silent
     'slack'
     'synologydrive'
